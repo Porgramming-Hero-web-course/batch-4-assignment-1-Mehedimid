@@ -8,7 +8,7 @@ There is a huge role of **Union** and **Intersection** types in TypeScript. Let�
 
 we can assume Union type as like “or” in mathematics. When we want , If any of the conditions can fulfill our requirements, we will use union type  and its simple is “|”  . we can use this type in any type or interface.
 
-# Code Example:
+## Code Example:
 ```typescript
 type User = string | number ;
 const user : User = “Ashraf”
@@ -17,7 +17,7 @@ const user : User  = 1
 Here , we can assign numbers or strings by using union type. Both will be correct. 
 
 
-# Intersection type (&)
+## Intersection type (`&`)
 
 It is like “and” in mathematics. When both conditions fulfill our requirements, we will use intersection type “&”. We can also use this type in any type or interface.
 
